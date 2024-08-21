@@ -12,7 +12,7 @@ int main()
 
     //Cálculo de IMC
     imc = peso/(altura * altura);
-    printf("O seu IMC é: %.2f", imc); 
+    printf("O IMC de uma pessoa com peso: %.2f kg e altura %.2f m é igual a %.2f:", peso, altura, imc); 
 
     return 0;
 }
